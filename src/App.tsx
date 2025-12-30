@@ -7,8 +7,8 @@ import { ForecastGrid } from "./components/ForecastGrid";
 import WeatherCharts from "./components/WeatherCharts";
 import AirQuality from "./components/AirQuality";
 import WeatherInsights from "./components/WeatherInsights";
-import ActivityRecommendations from "./components/ActivityRecommendations";
-import PredictionCharts from "./components/PredictionCharts";
+//import ActivityRecommendations from "./components/ActivityRecommendations";
+//import PredictionCharts from "./components/PredictionCharts";
 
 import { UnitToggle } from "./components/UnitToggle";
 import { ErrorMessage } from "./components/ErrorMessage";
@@ -199,7 +199,7 @@ export const App: React.FC = () => {
               />
             )}
 
-            {current && <PredictionCharts current={current} />}
+            {/* {current && <PredictionCharts current={current} />}
 
             {current && (
               <ActivityRecommendations
@@ -207,7 +207,7 @@ export const App: React.FC = () => {
                 units={units}
                 userId={userId ?? undefined}
               />
-            )}
+            )} */}
 
             {showAnalytics && current && forecast && (
               <WeatherAnalytics
